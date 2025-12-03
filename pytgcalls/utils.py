@@ -209,9 +209,9 @@ class AudioStream(QueueStream):
 
         codec_context = self.__input_container.streams.audio[0].codec_context
 
-        self.__input_container.no_buffer = True
-        self.__input_container.flush_packets = True
-        codec_context.low_delay = True
+        #self.__input_container.no_buffer = True
+        #self.__input_container.flush_packets = True
+        #codec_context.low_delay = True
 
         # TODO so strange dirty fix
         audio_rate = codec_context.sample_rate
