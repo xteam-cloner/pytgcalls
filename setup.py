@@ -48,6 +48,7 @@ setup(
     extras_require={
         'pyrogram': ['pyrogram >= 1.2.0'],
         'telethon': ['telethon >= 1.23.0'],
+        'pyAV' : ['av >= 16.0.1'],
     },
     python_requires="~=3.6",
     include_package_data=True,
