@@ -28,7 +28,7 @@ packages = find_packages()
 with open(path.join(base_path, 'pytgcalls/__init__.py'), encoding='utf-8') as f:
     version = re.findall(r"__version__ = '(.+)'", f.read())[0]
 
-with open(path.join(base_path, '../README.md'), 'r', encoding='utf-8') as f:
+with open(path.join(base_path, './README.md'), 'r', encoding='utf-8') as f:
     readme = f.read()
 
 setup(
